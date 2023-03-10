@@ -1,0 +1,23 @@
+.footer {
+    font-family: 'Tilt Neon', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7FF;
+    color: #279AF1;
+    height: 3rem;
+    margin-top: auto;
+}
+
+p {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: 0 auto;
+    }
+  }

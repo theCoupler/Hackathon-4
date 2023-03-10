@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    
+}
+
+.releases{
+    display: flex;
+    flex-wrap: wrap;
+    width:100vw;
+    
+}
+.release{
+    color: #C49991;
+    background-color: #F7F7FF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: column;
+    width:15%;
+    border: #60656F solid 1px;
+    border-radius: 5%;
+    padding:2rem;
+    margin: 10px;
+    
+    
+&__title {
+    color: #279AF1
+}
+
+}
+@media screen and (max-width: 500px) {
+    .releases {
+     display: flex;
+     justify-content: center;
+     margin: 0 auto;
+    }
+  }
+

@@ -1,0 +1,28 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #F7F7FF;
+    color: #279AF1;
+    height: 3rem;
+}
+
+a {
+    margin: 1em;
+    text-decoration: none;
+    color: #279AF1;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: #60656F;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation {
+     display: flex;
+   
+     justify-content: center;
+     margin: 0 auto;
+    }
+  }
